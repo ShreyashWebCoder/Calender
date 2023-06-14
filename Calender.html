@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Year Calender</title>
+    <link rel="icon" href=".\Tasks\Calender_IMG\icon.png">
+    <!-- <link rel="stylesheet" href="Calender.css"> -->
+
+    <style>
+        * {
+    margin: 0px;
+    padding: 0px;
+    font-family: Segoe UI;
+}
+
+
+.content{
+    width: 100%;
+    height: 1000px;
+    padding-left: 50px;
+    /* padding-right: 200px; */
+}
+
+.block{
+    width: 300px;
+    height: 410px;
+    background-color:black;
+    padding: 25px;
+    padding-left: 25px;
+    padding-right:25px;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.Week {
+    padding: 6px;
+    color:white
+}
+
+hr{
+    width: 310px;
+}
+
+tr{
+    color: white;
+    text-align: center;
+}
+
+td{
+    background-color:white;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+td:hover{
+    background-color: yellow;
+}
+
+h1{
+    text-align: center;
+}
+
+table{
+text-align: center;
+}
+
+img{
+    width: 310px;;
+    height: 200px;
+    border:inset;
+}
+    </style>
+</head>
+
+<body>
+  
+    <div class="content">
+
+        <!-- January -->
+        <div class="block">
+            <table border="1">
+                <img src=".\Tasks\Calender_IMG\month1.jpg">
+                <hr>
+                <h1 style=" color: white;">January 2023</h1>
+                <hr>
+                <thead>
+                    <th class="Week">Sun</th>
+                    <th class="Week">Mon</th>
+                    <th class="Week">Tue</th>
+                    <th class="Week">Wed</th>
+                    <th class="Week">Thur</th>
+                    <th class="Week">Fri</th>
+                    <th class="Week">Sat</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td style="background-color: red;">3</td>
+                        <td>4</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td style="color:red ;">6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td
+                        <td>11</td>
+                        <td>12</td>
+                        <td>13</td>
+                    </tr>
+                    <tr>
+                        <td style="color:red ;">14</td>
+                        <td>15</td>
+                        <td>16</td>
+                        <td style="background-color: red;">17</td>
+                        <td>18</td>
+                        <td>19</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td style="color:red ;">21</td>
+                        <td>22</td>
+                        <td>23</td>
+                        <td>24</td>
+                        <td>25</td>
+                        <td>26</td>
+                        <td>26</td>
+                        
+                    </tr>
+                    <tr>
+                        <td style="color:red ;">27</td>
+                        <td>28</td>
+                        <td>29</td>
+                        <td>30</td>
+                        <td>31</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- February -->
+        <div class="block">
+            <table border="1">
+                <img src=".\Tasks\Calender_IMG\month2.jpg">
+                <hr>
+                <h1 style=" color: white;">February 2023</h1>
+                <hr>
+                <thead>
+                    <th class="Week">Sun</th>
+                    <th class="Week">Mon</th>
+                    <th class="Week">Tue</th>
+                    <th class="Week">Wed</th>
+                    <th class="Week">Thur</th>
+                    <th class="Week">Fri</th>
+                    <th class="Week">Sat</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td style="background-color: red;">4</td>
+                    </tr>
+                    <tr>
+                        <td style="color:red ;">5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td style="background-color: red;">9</td>
+                        <td>10</td>
+                        <td>11</td>
+                    </tr>
+                    <tr>
+                        <td style="color:red ;">12</td>
+                        <td>13</td>
+                        <td>14</td>
+                        <td>15</td>
+                        <td>16</td>
+                        <td>17</td>
+                        <td>18</td>
+                    </tr>
+                    <tr>
+                        <td style="color:red ;">19</td>
+                        <td>20</td>
+                        <td>21</td>
+                        <td>22</td>
+                        <td>23</td>
+                        <td>24</td>
+                        <td style="background-color: red;">25</td>
+                    </tr>
+                    <tr>
+                        <td style="color:red ;">26</td>
+                        <td>27</td>
+                        <td>28</td>
+                        <td>29</td>
+                        <td>30</td>
+                        <td>31</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Marach -->
+        <div class="block">
+            <table border="1">
+                <img src=".\Tasks\Calender_IMG\month3.jpg">
+                <hr>
+                <h1 style=" color: white;">Marach 2023</h1>
+                <hr>
+                <thead>
+                    <th class="Week">Sun</th>
+                    <th class="Week">Mon</th>
+                    <th class="Week">Tue</th>
+                    <th class="Week">Wed</th>
+                    <th class="Week">Thur</th>
+                    <th class="Week">Fri</th>
+                    <th class="Week">Sat</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td style="background-color: red;">1</td>
+                        <td>2</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td style="color:red ;">4</td>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td style="color:red ;">11</td>
+                        <td>12</td>
+                        <td>13</td>
+                        <td>14</td>
+                        <td>15</td>
+                        <td>16</td>
+                        <td>17</td>
+                    </tr>
+                    <tr>
+                        <td style="color:red ;">18</td>
+                        <td>19</td>
+                        <td>20</td>
+                        <td>21</td>
+                        <td>22</td>
+                        <td>23</td>
+                        <td>24</td>
+                    </tr>
+                    <tr>
+                        <td style="color:red ;">25</td>
+                        <td>26</td>
+                        <td>27</td>
+                        <td style="background-color: red;">28</td>
+                        <td>29</td>
+                        <td>30</td>
+                        <td>31</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- April -->
+        <div class="block">
+            <table border="1">
+                <img src=".\Tasks\Calender_IMG\month4.jpg">
+                <hr>
+                <h1 style=" color: white;">April 2023</h1>
+                <hr>
+                <thead>
+                    <th class="Week">Sun</th>
+                    <th class="Week">Mon</th>
+                    <th class="Week">Tue</th>
+                    <th class="Week">Wed</th>
+                    <th class="Week">Thur</th>
+                    <th class="Week">Fri</th>
+                    <th class="Week">Sat</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td style="background-color: red;">1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td style="color:red ;">5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                    </tr>
+                    <tr>
+                        <td style="color:red ;">12</td>
+                        <td>13</td>
+                        <td>14</td>
+                        <td>15</td>
+                        <td>16</td>
+                        <td>17</td>
+                        <td style="background-color: red;">18</td>
+                    </tr>
+                    <tr>
+                        <td style="color:red ;">19</td>
+                        <td>20</td>
+                        <td>21</td>
+                        <td>22</td>
+                        <td>23</td>
+                        <td>24</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td style="color:red ;">26</td>
+                        <td>27</td>
+                        <td>28</td>
+                        <td>29</td>
+                        <td>30</td>
+                        <td>31</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- May -->
+        <div class="block">
+            <table border="1">
+                <img src=".\Tasks\Calender_IMG\month5.jpg">
+                <hr>
+                <h1 style=" color: white;">May 2023</h1>
+                <hr>
+                <thead>
+                    <th class="Week">Sun</th>
+                    <th class="Week">Mon</th>
+                    <th class="Week">Tue</th>
+                    <th class="Week">Wed</th>
+                    <th class="Week">Thur</th>
+                    <th class="Week">Fri</th>
+                    <th class="Week">Sat</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td style="background-color: red;">4</td>
+                    </tr>
+                    <tr>
+                        <td style="color:red ;">5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                    </tr>
+                    <tr>
+                        <td style="color:red ;">12</td>
+                        <td>13</td>
+                        <td>14</td>
+                        <td>15</td>
+                        <td>16</td>
+                        <td>17</td>
+                        <td>18</td>
+                    </tr>
+                    <tr>
+                        <td style="color:red ;">19</td>
+                        <td>20</td>
+                        <td>21</td>
+                        <td>22</td>
+                        <td>23</td>
+                        <td>24</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td style="color:red ;">26</td>
+                        <td>27</td>
+                        <td style="background-color: red;">28</td>
+                        <td>29</td>
+                        <td>30</td>
+                        <td>31</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Juna -->
+        <div class="block">
+            <table border="1">
+                <img src=".\Tasks\Calender_IMG\month6.jpg">
+                <hr>
+                <h1 style=" color: white;">Juna 2023</h1>
+                <hr>
+                <thead>
+                    <th class="Week">Sun</th>
+                    <th class="Week">Mon</th>
+                    <th class="Week">Tue</th>
+                    <th class="Week">Wed</th>
+                    <th class="Week">Thur</th>
+                    <th class="Week">Fri</th>
+                    <th class="Week">Sat</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="color:red ;"></td>
+                        <td></td>
+                        <td></td>
+                        <td style="background-color: red;">1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td style="color:red ;">5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                    </tr>
+                    <tr>
+                        <td style="color:red ;">12</td>
+                        <td>13</td>
+                        <td>14</td>
+                        <td>15</td>
+                        <td>16</td>
+                        <td style="background-color: red;">17</td>
+                        <td>18</td>
+                    </tr>
+                    <tr>
+                        <td style="color:red ;">19</td>
+                        <td>20</td>
+                        <td>21</td>
+                        <td>22</td>
+                        <td>23</td>
+                        <td>24</td>
+                        <td style="background-color: red;">25</td>
+                    </tr>
+                    <tr>
+                        <td style="color:red ;">26</td>
+                        <td>27</td>
+                        <td>28</td>
+                        <td>29</td>
+                        <td>30</td>
+                        <td style="background-color: red;">31</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- July -->
+        <div class="block">
+            <table border="1">
+                <img src=".\Tasks\Calender_IMG\month2.jpg">
+                <hr>
+                <h1 style=" color: white;">July 2023</h1>
+                <hr>
+                <thead>
+                    <th class="Week">Sun</th>
+                    <th class="Week">Mon</th>
+                    <th class="Week">Tue</th>
+                    <th class="Week">Wed</th>
+                    <th class="Week">Thur</th>
+                    <th class="Week">Fri</th>
+                    <th class="Week">Sat</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="color:red ;"></td>
+                        <td></td>
+                        <td></td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td style="color:red ;">5</td>
+                        <td>6</td>
+                        <td style="background-color: red;">7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                    </tr>
+                    <tr>
+                        <td style="color:red ;">12</td>
+                        <td>13</td>
+                        <td>14</td>
+                        <td>15</td>
+                        <td>16</td>
+                        <td>17</td>
+                        <td style="background-color: red;">18</td>
+                    </tr>
+                    <tr>
+                        <td style="color:red ;">19</td>
+                        <td>20</td>
+                        <td>21</td>
+                        <td>22</td>
+                        <td>23</td>
+                        <td>24</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td style="color:red ;">26</td>
+                        <td>27</td>
+                        <td style="background-color: red;">28</td>
+                        <td>29</td>
+                        <td>30</td>
+                        <td>31</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Augaust -->
+        <div class="block">
+            <table border="1">
+                <img src=".\Tasks\Calender_IMG\month2.jpg">
+                <hr>
+                <h1 style=" color: white;">Augaust 2023</h1>
+                <hr>
+                <thead>
+                    <th class="Week">Sun</th>
+                    <th class="Week">Mon</th>
+                    <th class="Week">Tue</th>
+                    <th class="Week">Wed</th>
+                    <th class="Week">Thur</th>
+                    <th class="Week">Fri</th>
+                    <th class="Week">Sat</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="color:red ;"></td>
+                        <td></td>
+                        <td></td>
+                        <td>1</td>
+                        <td style="background-color: red;">2</td>
+                        <td>3</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td style="color:red ;">5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                    </tr>
+                    <tr>
+                        <td style="color:red ;">12</td>
+                        <td>13</td>
+                        <td>14</td>
+                        <td>15</td>
+                        <td>16</td>
+                        <td style="background-color: red;">17</td>
+                        <td>18</td>
+                    </tr>
+                    <tr>
+                        <td style="color:red ;">19</td>
+                        <td>20</td>
+                        <td>21</td>
+                        <td>22</td>
+                        <td>23</td>
+                        <td>24</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td style="color:red ;">26</td>
+                        <td>27</td>
+                        <td>28</td>
+                        <td>29</td>
+                        <td>30</td>
+                        <td style="background-color: red;">31</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- September -->
+        <div class="block">
+            <table border="1">
+                <img src=".\Tasks\Calender_IMG\month2.jpg">
+                <hr>
+                <h1 style="color: white;">September 2023</h1>
+                <hr>
+                <thead>
+                    <th class="Week">Sun</th>
+                    <th class="Week">Mon</th>
+                    <th class="Week">Tue</th>
+                    <th class="Week">Wed</th>
+                    <th class="Week">Thur</th>
+                    <th class="Week">Fri</th>
+                    <th class="Week">Sat</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="color:red ;"></td>
+                        <td></td>
+                        <td></td>
+                        <td style="background-color: red;">1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td style="color:red ;">5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td  style="background-color: red;">11</td>
+                    </tr>
+                    <tr>
+                        <td style="color:red ;">12</td>
+                        <td>13</td>
+                        <td>14</td>
+                        <td>15</td>
+                        <td>16</td>
+                        <td>17</td>
+                        <td>18</td>
+                    </tr>
+                    <tr>
+                        <td style="color:red ;">19</td>
+                        <td>20</td>
+                        <td>21</td>
+                        <td style="background-color: red;">22</td>
+                        <td>23</td>
+                        <td>24</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td style="color:red ;">26</td>
+                        <td>27</td>
+                        <td>28</td>
+                        <td>29</td>
+                        <td>30</td>
+                        <td>31</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- October -->
+        <div class="block">
+            <table border="1">
+                <img src=".\Tasks\Calender_IMG\month2.jpg">
+                <hr>
+                <h1 style=" color: white;">October 2023</h1>
+                <hr>
+                <thead>
+                    <th class="Week">Sun</th>
+                    <th class="Week">Mon</th>
+                    <th class="Week">Tue</th>
+                    <th class="Week">Wed</th>
+                    <th class="Week">Thur</th>
+                    <th class="Week">Fri</th>
+                    <th class="Week">Sat</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="color:red ;"></td>
+                        <td></td>
+                        <td></td>
+                        <td>1</td>
+                        <td  style="background-color: red;">2</td>
+                        <td>3</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td style="color:red ;">5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                    </tr>
+                    <tr>
+                        <td style="color:red ;">12</td>
+                        <td>13</td>
+                        <td>14</td>
+                        <td>15</td>
+                        <td>16</td>
+                        <td>17</td>
+                        <td style="background-color: red;">18</td>
+                    </tr>
+                    <tr>
+                        <td style="color:red ;">19</td>
+                        <td>20</td>
+                        <td>21</td>
+                        <td>22</td>
+                        <td>23</td>
+                        <td>24</td>
+                        <td style="background-color: red;">25</td>
+                    </tr>
+                    <tr>
+                        <td style="color:red ;">26</td>
+                        <td>27</td>
+                        <td>28</td>
+                        <td>29</td>
+                        <td>30</td>
+                        <td>31</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- November -->
+        <div class="block">
+            <table border="1">
+                <img src=".\Tasks\Calender_IMG\month2.jpg">
+                <hr>
+                <h1 style="color: white;">November 2023</h1>
+                <hr>
+                <thead>
+                    <th class="Week">Sun</th>
+                    <th class="Week">Mon</th>
+                    <th class="Week">Tue</th>
+                    <th class="Week">Wed</th>
+                    <th class="Week">Thur</th>
+                    <th class="Week">Fri</th>
+                    <th class="Week">Sat</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="color:red ;"></td>
+                        <td></td>
+                        <td></td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td style="background-color: red;">4</td>
+                    </tr>
+                    <tr>
+                        <td style="color:red ;">5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                    </tr>
+                    <tr>
+                        <td style="color:red ;">12</td>
+                        <td>13</td>
+                        <td>14</td>
+                        <td>15</td>
+                        <td>16</td>
+                        <td>17</td>
+                        <td>18</td>
+                    </tr>
+                    <tr>
+                        <td style="color:red ;">19</td>
+                        <td>20</td>
+                        <td>21</td>
+                        <td>22</td>
+                        <td style="background-color: red;">23</td>
+                        <td>24</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td style="color:red ;">26</td>
+                        <td>27</td>
+                        <td>28</td>
+                        <td>29</td>
+                        <td>30</td>
+                        <td style="background-color: red;">31</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- December -->
+        <div class="block">
+            <table border="1">
+                <img src=".\Tasks\Calender_IMG\month2.jpg">
+                <hr>
+                <h1 style=" color: white;">December 2023</h1>
+                <hr>
+                <thead>
+                    <th class="Week">Sun</th>
+                    <th class="Week">Mon</th>
+                    <th class="Week">Tue</th>
+                    <th class="Week">Wed</th>
+                    <th class="Week">Thur</th>
+                    <th class="Week">Fri</th>
+                    <th class="Week">Sat</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="color:red ;"></td>
+                        <td></td>
+                        <td></td>
+                        <td style="background-color: red;">1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td style="color:red ;">5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td style="background-color: red;">10</td>
+                        <td>11</td>
+                    </tr>
+                    <tr>
+                        <td style="color:red ;">12</td>
+                        <td>13</td>
+                        <td>14</td>
+                        <td>15</td>
+                        <td>16</td>
+                        <td>17</td>
+                        <td>18</td>
+                    </tr>
+                    <tr>
+                        <td style="color:red ;">19</td>
+                        <td>20</td>
+                        <td>21</td>
+                        <td>22</td>
+                        <td>23</td>
+                        <td>24</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td style="color:red ;">26</td>
+                        <td>27</td>
+                        <td>28</td>
+                        <td style="background-color: red;">29</td>
+                        <td>30</td>
+                        <td>31</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>

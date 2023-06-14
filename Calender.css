@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Segoe UI;
+}
+.banner{
+    width: 100%;
+    height: 500px;
+    background-color: red;
+    margin-bottom: 5px;
+}
+
+.content{
+    width: 100%;
+    height: 1000px;
+    padding-left: 50px;
+    /* padding-right: 200px; */
+}
+
+.block{
+    width: 300px;
+    height: 410px;
+    background-color:black;
+    padding: 25px;
+    padding-left: 25px;
+    padding-right:25px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.Week {
+    padding: 6px;
+    color:white
+}
+
+hr{
+    width: 310px;
+}
+
+tr{
+    color: white;
+    text-align: center;
+}
+
+td{
+    background-color:white;
+    color: black;
+    font-weight: bold;
+}
+
+h1{
+    text-align: center;
+}
+
+table{
+text-align: center;
+}
+
+img{
+    width: 310px;;
+    height: 200px;
+    border:inset;
+}
